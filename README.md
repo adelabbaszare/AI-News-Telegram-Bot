@@ -57,8 +57,8 @@ AI-News-Telegram-Bot/
 ## Setup
 1. Clone the repository:
 ```bash
-   git clone https://github.com/adelabbaszare/AI-News-Telegram-Bot.git
-   cd AI-News-Telegram-Bot
+git clone https://github.com/adelabbaszare/AI-News-Telegram-Bot.git
+cd AI-News-Telegram-Bot
 ```
 2. (Recommended) Create and activate a virtual environment:
 ```bash
@@ -123,4 +123,4 @@ This project is open source and available under the MIT License. See the LICENSE
 
 ## Contact / Support
 If you encounter issues or have suggestions, please open an issue in this repository or contact Adel.
-Happy coding! 🚀
+Happy coding🚀
