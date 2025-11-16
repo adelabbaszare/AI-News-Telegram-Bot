@@ -74,15 +74,16 @@ pip install -r requirements.txt
 ```
 
 ## Configuration
-You need to set up your bot token and optionally the news source URL or API key.
-1. Create a .env file (or config.py, whichever your code uses) at the project root.
-2. Add the following example variables (adjust names to match your code):
+You need to set up your bot token and optionally the news source API key.
+1. Create a .env file at the project root.
+
+2. Add the following example variables:
 ```env
 TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEG­RAM_CHAT_ID=@YourChannelOrChatID
-NEWS_SOURCE_URL=https://example.com/rss
+TELEG­RAM_CHAT_ID=@YourChannel Or ChatID
 NEWS_API_KEY=your_api_key_if_any
 ```
+
 3. In your news_bot.py, make sure you load those environment/config values. For example:
 ```python
 import os
@@ -109,7 +110,7 @@ If you want to stop it: press `Ctrl + C`.
 ## Contributing
 Feel free to contribute! Here’s how:
 - Fork the repository
-- Create a new branch: `git checkout -b feature/your-feature-name`
+- Create a new branch: ``git checkout -b feature/your-feature-name``
 - Make your changes, test thoroughly
 - Commit your changes with a meaningful message: `e.g., feat: add Persian language support`
 - Push to your fork and open a Pull Request
