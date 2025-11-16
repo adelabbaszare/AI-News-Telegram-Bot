@@ -47,7 +47,7 @@ AI-News-Telegram-Bot/
 
 ## Prerequisites
 
-- Python **3.13+** (or whichever version you are targeting)  
+- Python **3.13+**
 - A Telegram Bot token from [@BotFather](https://t.me/BotFather)  
 - Access to a news source: RSS feed URL or news-API  
 - `pip` and a virtual environment for package isolation  
