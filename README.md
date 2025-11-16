@@ -11,12 +11,12 @@ This repository contains the initial version of `news_bot.py` and is ready for y
 
 ## 📋 Table of Contents
 
-- [Features](#features)  
+- [Features](#features)
+- [Folder & File Structure](#folder--file-structure)   
 - [Prerequisites](#prerequisites)  
 - [Setup](#setup)  
 - [Configuration](#configuration)  
 - [Usage](#usage)  
-- [Folder & File Structure](#folder--file-structure)  
 - [Contributing](#contributing)  
 - [License](#license)
 
@@ -31,23 +31,35 @@ This repository contains the initial version of `news_bot.py` and is ready for y
 
 ---
 
+## Folder & File Structure
+```bash
+AI-News-Telegram-Bot/
+│
+├─ news_bot_en.py            # main bot script (English)
+├─ news_bot_fa.py            # main bot script (Persian)
+├─ requirements.txt          # list of dependencies
+├─ send_links.txt            # created at runtime to track already-sent article links (to prevent send duplicate articles)
+├─ .env                      # configuration variables
+└─ README.md                 # this file
+```
+
+---
+
 ## Prerequisites
 
-- Python **3.8+** (or whichever version you are targeting)  
+- Python **3.13+** (or whichever version you are targeting)  
 - A Telegram Bot token from [@BotFather](https://t.me/BotFather)  
-- Access to a news source: RSS feed URL or news-API (optional)  
-- (Optional) `pip` and a virtual environment for package isolation  
+- Access to a news source: RSS feed URL or news-API  
+- `pip` and a virtual environment for package isolation  
 
 ---
 
 ## Setup
-
 1. Clone the repository:
-    ```bash
+```bash
    git clone https://github.com/adelabbaszare/AI-News-Telegram-Bot.git
    cd AI-News-Telegram-Bot
-    ```
-
+```
 2. (Recommended) Create and activate a virtual environment:
 ```bash
 python -m venv venv
@@ -56,7 +68,6 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 ```
-
 3. Install dependencies (if you have a requirements.txt):
 ```bash
 pip install -r requirements.txt
@@ -64,15 +75,14 @@ pip install -r requirements.txt
 
 ## Configuration
 You need to set up your bot token and optionally the news source URL or API key.
- 1. Create a .env file (or config.py, whichever your code uses) at the project root.
- 2. Add the following example variables (adjust names to match your code):
+1. Create a .env file (or config.py, whichever your code uses) at the project root.
+2. Add the following example variables (adjust names to match your code):
 ```env
 TELEGRAM_BOT_TOKEN=your_bot_token_here
 TELEG­RAM_CHAT_ID=@YourChannelOrChatID
 NEWS_SOURCE_URL=https://example.com/rss
 NEWS_API_KEY=your_api_key_if_any
 ```
-
 3. In your news_bot.py, make sure you load those environment/config values. For example:
 ```python
 import os
@@ -94,18 +104,6 @@ python news_bot.py
 ```
 The bot will fetch news from the source, format it, and send it to the specified Telegram chat/channel.
 If you want to stop it: press `Ctrl + C`.
-
-
-## Folder & File Structure
-```bash
-AI-News-Telegram-Bot/
-│
-├─ news_bot_en.py            # main bot script (English)
-├─ news_bot_fa.py            # main bot script (Persian)
-├─ requirements.txt       # list of dependencies
-├─ .env                   # configuration variables
-└─ README.md              # this file
-```
 
 
 ## Contributing
