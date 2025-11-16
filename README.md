@@ -2,7 +2,7 @@
 ![Telegram Bot Image](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
 [![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot)
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
 
 A Telegram bot written in Python that fetches news and posts them in a channel or chat.  
 This repository contains the initial version of `news_bot.py` and is ready for you to configure and run.
