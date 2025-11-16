@@ -60,6 +60,7 @@ AI-News-Telegram-Bot/
 git clone https://github.com/adelabbaszare/AI-News-Telegram-Bot.git
 cd AI-News-Telegram-Bot
 ```
+
 2. (Recommended) Create and activate a virtual environment:
 ```bash
 python -m venv venv
@@ -68,6 +69,7 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 ```
+
 3. Install dependencies (if you have a requirements.txt):
 ```bash
 pip install -r requirements.txt
@@ -79,9 +81,9 @@ You need to set up your bot token and optionally the news source API key.
 
 2. Add the following example variables:
 ```env
-TELEGRAM_BOT_TOKEN=your_bot_token_here
-TELEG­RAM_CHAT_ID=@YourChannel Or ChatID
-NEWS_API_KEY=your_api_key_if_any
+TELEGRAM_BOT_TOKEN = your_bot_token_here
+TELEG­RAM_CHAT_ID = @YourChannel Or ChatID
+NEWS_API_KEY = your_api_key_if_any
 ```
 
 3. In your news_bot.py, make sure you load those environment/config values. For example:
@@ -101,7 +103,9 @@ API_KEY = os.getenv("NEWS_API_KEY")
 ## Usage
 Once configured, simply run:
 ```python
-python news_bot.py
+python news_bot_en.py
+# or
+python news_bot_fa.py
 ```
 The bot will fetch news from the source, format it, and send it to the specified Telegram chat/channel.
 If you want to stop it: press `Ctrl + C`.
@@ -110,7 +114,7 @@ If you want to stop it: press `Ctrl + C`.
 ## Contributing
 Feel free to contribute! Here’s how:
 - Fork the repository
-- Create a new branch: ``git checkout -b feature/your-feature-name``
+- Create a new branch: ```git checkout -b feature/your-feature-name```
 - Make your changes, test thoroughly
 - Commit your changes with a meaningful message: `e.g., feat: add Persian language support`
 - Push to your fork and open a Pull Request
