@@ -1,6 +1,8 @@
 # AI-News-Telegram-Bot
 ![Telegram Bot Image](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
 [![GitHub Stars](https://img.shields.io/github/stars/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot)
+![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/AI-News-Telegram-Bot)
+![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 [![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
 
@@ -114,10 +116,12 @@ If you want to stop it: press `Ctrl + C`.
 ## Contributing
 Feel free to contribute! Here’s how:
 - Fork the repository
+ [![GitHub Forks](https://img.shields.io/github/forks/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot/fork)
 - Create a new branch: ```git checkout -b feature/your-feature-name```
 - Make your changes, test thoroughly
-- Commit your changes with a meaningful message: `e.g., feat: add Persian language support`
+- Commit your changes with a meaningful message: `e.g., git commit -m "feat: add Persian language support"`
 - Push to your fork and open a Pull Request
+![Pull Requests](https://img.shields.io/github/issues-pr/adelabbaszare/AI-News-Telegram-Bot)
 - Please ensure code style, error handling, and documentation are maintained.
 
 
