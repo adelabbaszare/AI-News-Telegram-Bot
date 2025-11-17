@@ -2,7 +2,7 @@
 ![Telegram Bot Image](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
 ![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/AI-News-Telegram-Bot)
 ![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-purple?logo=telegram)](https://t.me/learnwithadel)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
 
 A Telegram bot written in Python that fetches news and posts them in a channel or chat.  
 This repository contains the initial version of `news_bot.py` and is ready for you to configure and run.
@@ -116,7 +116,7 @@ Feel free to contribute! Here’s how:
 - Fork the repository : [![GitHub Forks](https://img.shields.io/github/forks/adelabbaszare/AI-News-Telegram-Bot?style=social)](https://github.com/adelabbaszare/AI-News-Telegram-Bot/fork)
 - Create a new branch: ```git checkout -b feature/your-feature-name```
 - Make your changes, test thoroughly
-- Commit your changes with a meaningful message: `e.g., git commit -m "feat: add Persian language support"`
+- Commit your changes with a meaningful message: `e.g: git commit -m "feat: add Persian language support"`
 - Push to your fork and open a Pull Request : [![Pull Requests](https://img.shields.io/github/issues-pr/adelabbaszare/AI-News-Telegram-Bot)](https://github.com/adelabbaszare/AI-News-Telegram-Bot/pulls)
 - Please ensure code style, error handling, and documentation are maintained.
 
