@@ -136,3 +136,35 @@ This project is open source and available under the MIT License. See the LICENSE
 ## Contact / Support
 If you encounter issues or have suggestions, please open an issue in this repository or contact Adel.
 Happy coding🚀
+
+
+---
+
+## Development
+
+Install development dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Run the modular version:
+
+```bash
+python -m src.main
+```
+
+Run tests:
+
+```bash
+pytest
+```
+
+Check code quality:
+
+```bash
+ruff check .
+black --check .
+```
+
+The repository includes a GitHub Actions CI workflow that runs Ruff, Black, and Pytest on pushes and pull requests.
