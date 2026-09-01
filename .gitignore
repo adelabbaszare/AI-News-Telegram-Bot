@@ -1,0 +1,8 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+sent_links.txt
+.pytest_cache/
+.coverage
