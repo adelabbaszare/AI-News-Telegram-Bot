@@ -1,5 +1,6 @@
 import logging
 import time
+
 import schedule
 
 from src.config import Settings
@@ -9,7 +10,10 @@ from src.services.telegram_service import TelegramService
 from src.services.translation_service import TranslationService
 from src.utils.formatter import build_message
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(name)s | %(message)s")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
+)
 logger = logging.getLogger(__name__)
 
 
