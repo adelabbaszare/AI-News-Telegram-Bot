@@ -27,7 +27,8 @@ class Settings:
 
     def validate(self) -> None:
         missing = [
-            name for name, value in {
+            name
+            for name, value in {
                 "NEWS_API_KEY": self.news_api_key,
                 "TELEGRAM_BOT_TOKEN": self.telegram_bot_token,
                 "TELEGRAM_CHAT_ID": self.telegram_chat_id,
