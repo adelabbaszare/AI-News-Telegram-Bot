@@ -24,10 +24,10 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: Ruff
-        run: ruff check .
+        run: python -m ruff check src tests
 
       - name: Black
-        run: black --check .
+        run: python -m black --check src tests
 
       - name: Tests
-        run: pytest
+        run: python -m pytest
