@@ -1,6 +1,9 @@
 import logging
+
 from googletrans import Translator
+
 logger = logging.getLogger(__name__)
+
 
 class TranslationService:
     def __init__(self) -> None:
