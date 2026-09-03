@@ -44,13 +44,13 @@ class NewsService:
             logger.exception("Failed to fetch news from the API.")
             return []
 
-        raw_articles = (
-            payload.get("data", [])
-            if isinstance(payload, dict)
-            else payload
-            if isinstance(payload, list)
-            else []
-        )
+        if isinstance(payload, dict):
+            raw_articles = payload.get("data", [])
+        elif isinstance(payload, list):
+            raw_articles = payload
+        else:
+            raw_articles = []
+
         return [
             article
             for article in (Article.from_api(item) for item in raw_articles)
