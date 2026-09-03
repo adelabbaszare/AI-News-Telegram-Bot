@@ -35,8 +35,15 @@ This repository contains the initial version of `news_bot.py` and is ready for y
 ```bash
 AI-News-Telegram-Bot/
 │
-├─ news_bot_en.py            # main bot script (English)
-├─ news_bot_fa.py            # main bot script (Persian)
+├─ src/                      # modular application source code
+│  ├─ config.py
+│  ├─ main.py
+│  ├─ models/
+│  ├─ services/
+│  ├─ repositories/
+│  └─ utils/
+├─ news_bot_en.py            # legacy script
+├─ news_bot_fa.py            # legacy script
 ├─ requirements.txt          # list of dependencies
 ├─ send_links.txt            # created at runtime to track already-sent article links (to prevent send duplicate articles)
 ├─ .env                      # configuration variables
@@ -103,9 +110,9 @@ API_KEY = os.getenv("NEWS_API_KEY")
 ## Usage
 Once configured, simply run:
 ```python
-python news_bot_en.py
-# or
-python news_bot_fa.py
+python -m src.main
+
+# Legacy scripts are still available during the transition
 ```
 The bot will fetch news from the source, format it, and send it to the specified Telegram chat/channel.
 If you want to stop it: press `Ctrl + C`.
@@ -129,3 +136,35 @@ This project is open source and available under the MIT License. See the LICENSE
 ## Contact / Support
 If you encounter issues or have suggestions, please open an issue in this repository or contact Adel.
 Happy coding🚀
+
+
+---
+
+## Development
+
+Install development dependencies:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Run the modular version:
+
+```bash
+python -m src.main
+```
+
+Run tests:
+
+```bash
+pytest
+```
+
+Check code quality:
+
+```bash
+ruff check .
+black --check .
+```
+
+The repository includes a GitHub Actions CI workflow that runs Ruff, Black, and Pytest on pushes and pull requests.
