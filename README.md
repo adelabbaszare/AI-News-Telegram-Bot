@@ -4,6 +4,8 @@
 ![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
 [![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
 
+[🇮🇷 فارسی](README_fa.md) | 🇬🇧 English
+
 A Telegram bot written in Python that fetches news and posts them in a channel or chat.  
 This repository contains the initial version of `news_bot.py` and is ready for you to configure and run.
 
