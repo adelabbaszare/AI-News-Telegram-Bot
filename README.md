@@ -1,8 +1,12 @@
 # AI-News-Telegram-Bot
-![Telegram Bot Image](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
-![Top Language](https://img.shields.io/github/languages/top/adelabbaszare/AI-News-Telegram-Bot)
-![Languages Count](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
+![AI-News-Telegram-Bot](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
+
+[![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-26A5E4?logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
+[![RSS](https://img.shields.io/badge/News-RSS%20Feeds-FFA500?logo=rss&logoColor=white)](https://www.rssboard.org/rss-specification)
+[![Pytest](https://img.shields.io/badge/Pytest-Testing-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
+[![Ruff](https://img.shields.io/badge/Ruff-Linting-D7FF64?logo=ruff&logoColor=black)](https://docs.astral.sh/ruff/)
+[![Black](https://img.shields.io/badge/Black-Formatter-000000?logo=python&logoColor=white)](https://black.readthedocs.io/)
 
 [🇮🇷 فارسی](README_fa.md) | 🇬🇧 English
 
