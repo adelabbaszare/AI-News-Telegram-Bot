@@ -1,5 +1,6 @@
 # AI-News-Telegram-Bot
-![AI-News-Telegram-Bot](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
+
+![AI-News-Telegram-Bot](https://github.com/adelabbaszare/AI-News-Telegram-Bot/blob/main/AI-News-Telegram-Bot.webp)
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Telegram Bot API](https://img.shields.io/badge/Telegram-Bot%20API-26A5E4?logo=telegram&logoColor=white)](https://core.telegram.org/bots/api)
