@@ -1,6 +1,6 @@
 # AI-News-Telegram-Bot
 
-![تصویر ربات تلگرام](https://www.webopedia.com/wp-content/uploads/2024/10/what-is-a-telegram-bot-cover-2.webp)
+![تصویر ربات تلگرام](https://github.com/adelabbaszare/AI-News-Telegram-Bot/blob/main/AI-News-Telegram-Bot.webp)
 ![زبان اصلی](https://img.shields.io/github/languages/top/adelabbaszare/AI-News-Telegram-Bot)
 ![تعداد زبان‌ها](https://img.shields.io/github/languages/count/adelabbaszare/AI-News-Telegram-Bot)
 [![تلگرام](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)](https://t.me/learnwithadel)
